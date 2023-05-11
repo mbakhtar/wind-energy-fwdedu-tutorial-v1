@@ -29,7 +29,7 @@ Now add the true condition ``||modules:on button4 pressed||`` it replaces the tr
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
         }
 })
 ```
@@ -40,34 +40,37 @@ then place it under the true condition of the ``||logic: if then||`` loop
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
     Revolutions += 1
         }
 })
 ```
 ## @showhint
 Add a delay between the ``||modules:on button4 pressed||`` detecting a 
-``||modules:touch or tap||``. Add a ``||basic:pause||`` block from ``||basic:basic||`` drawer
+``||modules:touch or tap||``. 
+Add a ``||basic:pause||`` block from ``||basic:basic||`` drawer
 ```blocks
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
         Revolutions += 1
     }
     basic.pause(20)
 })
 ```
 ## @showhint
-Add an ``||input:on button A pressed||`` block. This will be used to display a value stored in a 
+Add an ``||input:on button A pressed||`` block. 
+This will be used to display a value stored in a 
 ``||Variables:Variable||``
 ```blocks
 input.onButtonPressed(Button.A, function () {
+   
 })
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
         Revolutions += 1
     }
     basic.pause(20)
@@ -82,7 +85,7 @@ input.onButtonPressed(Button.A, function () {
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
         Revolutions += 1
     }
     basic.pause(20)
@@ -98,7 +101,7 @@ input.onButtonPressed(Button.A, function () {
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
         Revolutions += 1
     }
     basic.pause(20)
@@ -114,10 +117,9 @@ input.onButtonPressed(Button.A, function () {
 let Revolutions = 0
 Revolutions = 1
 basic.forever(function () {
-    if (modules.button4.pressed()) {
+    if (fwdSensors.touch.fwdIsPressed()) {
         Revolutions += 1
     }
     basic.pause(20)
 })
 ```
-
