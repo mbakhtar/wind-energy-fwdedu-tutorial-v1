@@ -2,7 +2,6 @@
 
 ```package
 jacdac=github:microsoft/pxt-jacdac
-jacdac-button=github:microsoft/pxt-jacdac/button
 fwd-edu-touch=github:microsoft/pxt-jacdac/button
 fwd-edu-common=github:climate-action-kits/pxt-fwd-edu/fwd-common
 ```
