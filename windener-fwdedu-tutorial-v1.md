@@ -1,10 +1,12 @@
 # Wind Energy CAK V2.1 fwdEDU
 
 ```package
+fwdSensors=github:climate-action-kits/pxt-fwd-edu
 jacdac=github:microsoft/pxt-jacdac
-fwd-edu-touch=github:microsoft/pxt-jacdac/button
+touch=github:climate-action-kits/pxt-fwd-edu/fwd-touch
 fwd-edu-common=github:climate-action-kits/pxt-fwd-edu/fwd-common
-```
+````
+
 ## @showhint
 Create a ``||Variables:Variable Revolutions||`` and nest 
 ``||Variables:set Revolutions to 0||`` 
