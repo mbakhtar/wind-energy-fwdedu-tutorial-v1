@@ -1,5 +1,5 @@
 
-> Open this page at [https://mbakhtar.github.io/windener-fwdedu-tutorial-v1/](https://mbakhtar.github.io/windener-fwdedu-tutorial-v1/)
+> Open this page at [https://mbakhtar.github.io/wind-energy-fwdedu-tutorial-v1/](https://mbakhtar.github.io/wind-energy-fwdedu-tutorial-v1/)
 
 ## Use as Extension
 
